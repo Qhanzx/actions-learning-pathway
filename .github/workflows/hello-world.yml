@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm run hello-world-job 
+      - run: npm run build
 
   test: 
     needs: hello-world-job
